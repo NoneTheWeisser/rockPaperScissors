@@ -1,0 +1,62 @@
+html {
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.game {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2); /* optional */
+  border-radius: 10px;
+  text-align: left; /* This makes child text left-aligned */
+}
+
+.game ul {
+  list-style-position: outside;  /* Default is fine */
+  padding-left: 6s0px;            /* Ensure bullets aren't too close to edge */
+  margin: 0 auto;
+}
+
+.game li {
+  margin-bottom: 10px;
+}
+
+.game img {
+  display: block;
+  margin: 20px auto; /* Adds top/bottom space and centers horizontally */
+  max-width: 100%;   /* Keeps image responsive */
+  height: auto;      /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+h1 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: small;
+}
+
+.instructions {
+  max-width: 400px;
+  margin: 0 auto;         /* Centers the container */
+  text-align: left;       /* Left-aligns list content */
+}
+
+.instructions ul {
+  padding-left: 30px;     /* Keeps bullets nicely spaced */
+}
