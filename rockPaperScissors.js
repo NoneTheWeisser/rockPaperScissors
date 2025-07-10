@@ -19,7 +19,7 @@ const getComputerChoice = () =>{
 
 const determineWinner = (userChoice, computerChoice) => {
   if (userChoice === 'bomb'){
-    return 'Winner winner, you are bomb.com';
+    return 'I guess you won, or did you cheat? That is the question.';
   }
   if (userChoice === computerChoice){
     return `Game is a tie, try again!`;
